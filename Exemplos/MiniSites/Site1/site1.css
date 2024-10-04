@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=swap');
+#cor{
+    color: rgb(95, 0, 139);
+ margin-right: 0px;
+ font-family: "Cookie", cursive;
+}
+
+h1{
+    margin-left: 0px;
+}
+h3{
+    text-align: center;
+    color: blue;
+    border: solid;
+    color: rgb(0, 13, 192);
+    background-color: rgb(141, 141, 141);
+    width: 168px;
+    margin-right: 840px;
+    padding: 10px;
+}
+img{
+ border: solid 10px;
+    color: rgb(134, 134, 134);
+}
+#historia{
+    text-align: center;
+    color: blue;
+    border: solid;
+    color: rgb(0, 13, 192);
+    background-color: rgb(141, 141, 141);
+    width: 150px;
+    margin-right: 870px;  
+    padding: 10px;
+}
+#gui{
+      text-align: center;
+    color: blue;
+    border: solid;
+    color: rgb(0, 13, 192);
+    width: 950px;
+    margin-right: 800px;  
+    animation: led 2s infinite;
+    padding: 10px;
+    
+}
+body{
+    width: 950px;
+    margin:0 auto;
+    background-color: aliceblue;
+}
+
+   @keyframes led{
+       0%{
+           color: aqua;
+       }
+       5%{
+           color: blue;
+       }
+       10%{
+           color: blueviolet;
+       }
+       15%{
+           color: crimson;
+       }
+       20%{
+           color: darkorange;
+       }
+       25%{
+           color: gold;
+       }
+       30%{
+           color: deeppink;
+       }
+       35%{
+           color: green;
+       }
+       40%{
+           color: mediumspringgreen;
+       }
+       50%{
+        background-color: black;
+       }
+       60%{
+        background-color: azure;
+       }
+       70%{
+        background-image: url();
+       }
+    }
+
