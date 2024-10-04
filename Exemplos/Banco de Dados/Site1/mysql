@@ -1,0 +1,6 @@
+CREATE TABLE cadastrar (
+    id INT AUTO_INCREMENT PRIMARY KEY, 
+    nome VARCHAR(255),
+    cargo VARCHAR(255),
+    salario DOUBLE
+    );
