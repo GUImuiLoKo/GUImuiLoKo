@@ -3,13 +3,13 @@
 require "banco_dados.php";
 
 
-if($_SERVER['REQUEST_METHOD'] == "POST"){
-    $nome = $_POST['nome'];
-    $email = $_POST['email'];
-    $senha = $_POST['senha'];
+if($_SERVER['REQUEST_METHOD'] == "GET"){
+    $nome = $_GET['nome'];
+    $email = $_GET['email'];
+    $senha = $_GET['senha'];
 
 
-    $conexao -> query("INSERT INTO cadastro (nome, email, senha) VALUES ('$nome', '$email', '$senha')");
+    $conexao -> query("INSERT INTO usuario (nome, email, senha) VALUES ('$nome', '$email', '$senha')");
 }
 ?>
 
@@ -21,7 +21,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
     <title>Document</title>
 </head>
 <body>
-    <form method="POST">
+    <form method="GET">
     <input type="text" name="nome" placeholder="Digite seu nome">
     <input type="text" name="email" placeholder="Digite seu email">
     <input type="text" name="senha" placeholder="Digite sua senha">
