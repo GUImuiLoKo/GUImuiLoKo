@@ -5,11 +5,11 @@ require "banco_dados.php";
 
 if($_SERVER['REQUEST_METHOD'] == "POST"){
     $nome = $_POST['nome'];
-    $cargo = $_POST['cargo'];
-    $salario = $_POST['salario'];
-    $dataemissao = $_POST['dataemissao'];
+    $email = $_POST['email'];
+    $senha = $_POST['senha'];
 
-    $conexao -> query("INSERT INTO cadastrar (nome, cargo, salario, dataemissao) VALUES ('$nome', '$cargo', '$salario', '$dataemissao')");
+
+    $conexao -> query("INSERT INTO cadastro (nome, email, senha) VALUES ('$nome', '$email', '$senha')");
 }
 ?>
 
@@ -23,9 +23,8 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
 <body>
     <form method="POST">
     <input type="text" name="nome" placeholder="Digite seu nome">
-    <input type="text" name="cargo" placeholder="Digite seu cargo">
-    <input type="text" name="salario" placeholder="Digite sua salario">
-    <input type="text" name="dataemissao" placeholder="Digite sua data de emissão">
+    <input type="text" name="email" placeholder="Digite seu email">
+    <input type="text" name="senha" placeholder="Digite sua senha">
 
     <button type="submit">Enviar</button>
 </form>
