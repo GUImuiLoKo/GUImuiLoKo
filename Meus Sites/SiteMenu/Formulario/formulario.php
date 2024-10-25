@@ -21,6 +21,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
     <script src="formulario.js" defer></script>
 </head>
 <body>
+
 <div id="fundo">
 
     <h1>FORMULÁRIO DE CADRASTRO</h1>
