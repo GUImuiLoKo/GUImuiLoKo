@@ -1,6 +1,11 @@
+let botao = document.querySelector('.botao');
 
+botao.addEventListener('click',abrirMenu)
 
+function abrirMenu(){
+alert ("Conta criada com sucesso")
 
+ }
 
 
 
