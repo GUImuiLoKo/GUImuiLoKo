@@ -25,6 +25,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
 <div id="fundo">
 
     <h1>FORMULÁRIO DE CADASTRO</h1>
+    <div id="form">
     <form method="POST">
         <label></label>
         <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
@@ -34,6 +35,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
         <input type="text" id="senha" name="senha" placeholder="Digite sua senha" required>
         <button class="botao" type="click">Enviar inscrição</button>
     </form>
+</div>
 </div>
 
 

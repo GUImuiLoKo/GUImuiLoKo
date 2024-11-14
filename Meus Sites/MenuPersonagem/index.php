@@ -39,20 +39,20 @@ if (isset($_GET['placa'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilo.css">
     <title>Controle de Acesso</title>
 </head>
 
 <body>
+<div>
     <h1>Controle de Acesso de Veículos</h1>
     <h2>Informação de acesso de um veículo</h2>
-
     <form method="GET">
         <label for="placa">Informe a placa do veículo</label>
         <input type="text" name="placa" id="placa" required>
         <input type="submit" value="Inserir">
     </form>
-
+</div>
     <p>
         <?php
         if (isset($_GET['placa'])) {
