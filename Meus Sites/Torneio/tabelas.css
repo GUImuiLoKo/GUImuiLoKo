@@ -1,3 +1,24 @@
-.barrainicio{
+* {
+    padding: 0; 
+    margin: 0;  
+}
 
+body{
+    background-image: url(fotoimg.jpg);
+    display: flex;
+    position: static;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.barrainicio{
+background-color: black;
+text-align: center;
+color: white;
+display: block;
+width: 100%;
+align-items: center;
 }
