@@ -7,7 +7,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
     $senha = $_POST['senha'];
 
 
-    $conexao -> query("INSERT INTO usuario (nome, email, senha) VALUES ('$nome', '$email', '$senha')");
+    $conexao -> query("INSERT INTO cadastro (nome, email, senha) VALUES ('$nome', '$email', '$senha')");
 }
 ?>
 
